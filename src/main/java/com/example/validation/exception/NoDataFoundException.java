@@ -1,0 +1,8 @@
+package com.example.validation.exception;
+
+public class NoDataFoundException extends RuntimeException{
+
+    public NoDataFoundException() {
+        super("No data found.");
+    }
+}
